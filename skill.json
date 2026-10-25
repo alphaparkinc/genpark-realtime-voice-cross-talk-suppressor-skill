@@ -1,0 +1,12 @@
+{
+  "name": "genpark-realtime-voice-cross-talk-suppressor-skill",
+  "version": "1.0.0",
+  "description": "Full-duplex voice agent echo suppressor distinguishing user barge-in from speaker playback acoustic feedback",
+  "author": "GenPark AI Engineering",
+  "license": "MIT",
+  "keywords": ["cross-talk-suppressor", "double-talk-detection", "barge-in", "echo-cancellation", "voice-agent", "agent-skills"],
+  "mcp": {
+    "supported": true,
+    "entrypoint": "mcp_server.py"
+  }
+}
